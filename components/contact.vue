@@ -189,7 +189,7 @@
         // this.$i18n.locale)
         this.error = false
         try {
-          await this.$axios.$post('http://docksal-bikeit.docksal/api/contact', {
+          await this.$axios.$post('/api/contact', {
             name: this.name,
             email: this.email,
             bundesland: this.bundesland.stateCode,
