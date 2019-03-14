@@ -15,8 +15,6 @@
       <div class="container-narrow alt-section pt-5 pb-5">
           <div class="row justify-content-center">
               <div class="col-md-6">
-                  <h2>Bikedestination eintragen</h2>
-                  <contact></contact>
               </div>
           </div>
       </div>
