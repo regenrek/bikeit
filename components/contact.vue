@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form v-show="!isSubmitted" @submit.prevent="validate">
+    <form v-show="!isSubmitted" @submit.prevent="validate" netlify>
       <div class="form-group">
         <label name="Name">Name</label>
         <input
@@ -189,7 +189,7 @@
         // this.$i18n.locale)
         this.error = false
         try {
-          await this.$axios.$post('https://stupefied-colden-0e1ed2.netlify.com/api/contact', {
+          await this.$axios.$post('/api/contact', {
             name: this.name,
             email: this.email,
             bundesland: this.bundesland.stateCode,
