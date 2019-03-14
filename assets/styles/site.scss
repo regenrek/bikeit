@@ -1,0 +1,28 @@
+
+.container-narrow {
+  @extend .container;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  border-bottom: 1px dotted currentColor;
+}
+
+.nav-link {
+  border: 0;
+}
+
+.footer {
+  font-size: 0.8em;
+}
+
+
+
+.img {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
